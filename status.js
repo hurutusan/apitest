@@ -1,4 +1,4 @@
-const projectId = '1054451382';  // 自分のプロジェクトIDに置き換えてください
+const projectId = '771421830';  // 自分のプロジェクトIDに置き換えてください
 const apiUrl = `https://corsproxy.io/?https://api.scratch.mit.edu/projects/${projectId}`;
 
 async function fetchProjectStatus() {
