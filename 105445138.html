@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scratch 作品ステータス</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        .status-section {
+            background-color: #ffffff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        .status-section h2 {
+            color: #2980b9;
+        }
+        .status-detail {
+            margin-top: 10px;
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Scratch 作品ステータス</h1>
+
+    <div class="status-section">
+        <h2>作品名: <span id="project-title">Loading...</span></h2>
+        <p class="status-detail">ビュー数: <span id="views">Loading...</span></p>
+        <p class="status-detail">いいね数: <span id="favorites">Loading...</span></p>
+        <p class="status-detail">リミックス数: <span id="remixes">Loading...</span></p>
+    </div>
+
+    <script src="status.js"></script>
+</body>
+</html>
